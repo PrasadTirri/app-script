@@ -68,6 +68,7 @@ const Body = () => {
                     boxShadow: "2px 2px 6px 2px #00000014",
                     padding: "10px",
                     textAlign: "right",
+                    backgroundColor: "white",
                   }}
                 >
                   <li style={{ fontWeight: "bold", margin: "3px" }}>

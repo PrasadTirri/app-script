@@ -56,7 +56,7 @@ const Footer = () => {
             <p>+44 221 133 5360</p>
             <p>customercare@mettamuse.com</p>
             <h3>CURRENCY</h3>
-            <h4>
+            <h4 style={{ display: "flex", alignItems: "center", gap: "5px" }}>
               <img src={usd} alt="UD dollars" />
               +USD
             </h4>
@@ -74,7 +74,7 @@ const Footer = () => {
             <hr />
             <div>
               <h3>CURRENCY</h3>
-              <h4>
+              <h4 style={{ display: "flex", alignItems: "center", gap: "5px" }}>
                 {" "}
                 <img src={usd} alt="UD dollars" />
                 +USD
